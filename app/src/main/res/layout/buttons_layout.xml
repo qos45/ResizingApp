@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonsForChanges"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:visibility="visible"
+    android:layout_alignParentEnd="true">
+
+    <ImageButton
+        android:id="@+id/cancelChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/reject_changes_64p" />
+
+    <ImageButton
+        android:id="@+id/submitChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_toStartOf="@+id/cancelChanges"
+        android:src="@drawable/confirm_changes_64p"/>
+
+</RelativeLayout>

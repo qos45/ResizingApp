@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#fff</color>
+    <color name="colorText">#BDBDBD</color>
+    <color name="colorButton">#4caf50</color>
+    <color name="colorBackgroundGreen">#C9ECC6</color>
+    <color name="colorButtonText">#FFF</color>
+    <color name="colorTextHeader">#7EA17B</color>
+    <color name="signUp">#56a7c2</color>
+    <color name="colorFont">#000</color>
+    <color name="freeRes">#A5CF44</color>
+    <color name="busyRes">#EB5D50</color>
+</resources>
