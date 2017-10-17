@@ -270,8 +270,17 @@ public class ReservationActivity extends AppCompatActivity {
 
                         int diffBetBalls = 0;
                         int offset = 0;
-                        int posOfTopBall = listView_res_today.pointToPosition(ourView.point4.x, ourView.point4.y + ballWidth / 2); // position for list item where is top resize ball
+                        int posOfTopBall = listView_res_today.pointToPosition(ourView.point4.x, ourView.point4.y + ballWidth / 2);// position for list item where is top resize ball
                         int posOfBottomBall = listView_res_today.pointToPosition(ourView.point3.x, ourView.point3.y + ballWidth / 4); // position for list item where is bottom resize ball
+
+                        if(posOfTopBall == -1)
+                        {
+                            posOfTopBall = listView_res_today.pointToPosition(ourView.point4.x, ourView.point4.y + ballWidth / 2 + 5);
+                        }
+                        if(posOfBottomBall == -1)
+                        {
+                            posOfBottomBall = listView_res_today.pointToPosition(ourView.point3.x, ourView.point3.y + ballWidth / 4 + 5);
+                        }
 
                         Log.i("Err", "Top: " + String.valueOf(ourView.point4.y));
                         Log.i("Err", "Bottom: " + String.valueOf(ourView.point3.y));
